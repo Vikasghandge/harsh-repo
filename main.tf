@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "this" {
-    ami = var
+    ami = var.instance_ami
     instance_type = "t2.micro" 
     tags = {
         name = "invor_instance"
