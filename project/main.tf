@@ -3,7 +3,7 @@ provider "aws" {
   
 }
 
-resource "aws_instance" "in" {
+resource "aws_instance" "invor_instance" {
     ami = var.instance_ami
     instance_type = var.instance_type 
     tags = {
