@@ -1,4 +1,4 @@
 output "instance_id" {
-    value = aws-instance.in
+    value = aws-instance.invor_instance
   
 }
