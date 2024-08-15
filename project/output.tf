@@ -1,3 +1,4 @@
-output "instance_i" {
+output "instance_id" {
+    
   
 }
