@@ -5,7 +5,7 @@ provider "aws" {
 
 resource "aws_instance" "this" {
     ami = var.instance_ami
-    instance_type = "t2.micro" 
+    instance_type = var 
     tags = {
         name = "invor_instance"
     }
