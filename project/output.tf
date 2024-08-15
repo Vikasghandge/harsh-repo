@@ -3,3 +3,8 @@ output "instance_id" {
   
 }
 
+
+
+output "instance_id" {
+  value = aws_instance.invor_instance.id
+}
