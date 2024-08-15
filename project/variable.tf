@@ -15,8 +15,8 @@ variable "instance_type" {
     type = string
   
 }
- variable "instance_key" {
- description = "instance key"
+ #variable "instance_key" {
+ #description = "instance key"
  type = string
  
  }
