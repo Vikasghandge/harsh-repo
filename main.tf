@@ -6,8 +6,6 @@ provider "aws" {
 resource "aws_instance" "this" {
     ami = ""
     instance_type = "t2.micro" 
-    tags = {
-        
-    }
+    tags = 
   
 }
