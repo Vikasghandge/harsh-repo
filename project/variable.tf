@@ -6,5 +6,10 @@ variable "aws_region" {
 
 variable "instance_ami" {
     description = "ami for instance"
+    type = string
+  
+}
+
+variable "" {
   
 }
