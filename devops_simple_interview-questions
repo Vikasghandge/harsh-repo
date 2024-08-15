@@ -1,0 +1,26 @@
+what is devops?
+basically devops is not any technology it is nothing but methodology.
+its a combiantion of devlopment and operation.
+it breaks a wall between devlopment and operation.
+in this devops they come together and work in software delivery lifecycle.
+to reduce time and make software fater deliver to clint.
+
+
+which are some most popular devops tools?
+git ----> its source code management tool. distributed version control system.
+ansible ----> its configuration management tool use for provisioning deploying.
+grafana ---> its a performance monitoring tool use to track our system
+terraform ---> its infra management tool helps to manage infrastructure
+kubernates -->
+docker ---> it is contarization tool
+puppet ---> config management tool
+chef ---> config management tool
+jenikens --->
+
+
+what are diffrent phases in devops?
+plan ---> code ---> build --> test --> deploy ---> operate ---> monitor
+this are diffrent phases in devops.
+
+
+
