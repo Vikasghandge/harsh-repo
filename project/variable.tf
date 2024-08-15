@@ -1,4 +1,9 @@
 variable "aws_region" {
-    description = "this is "
+    description = "this is for example"
+    type = string
+  
+}
+
+variable "ami" {
   
 }
