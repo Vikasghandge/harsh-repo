@@ -1,5 +1,5 @@
 output "instance_id" {
-    value = aws-instance.invor_instance
+    value = aws-instance.invor_instance.instance_id
   
 }
 
