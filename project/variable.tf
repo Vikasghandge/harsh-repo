@@ -15,5 +15,6 @@ variable "instance_type" {
     type = string
   
 }
- variable "instance" {
+ variable "instance_key" {
  }
+ 
