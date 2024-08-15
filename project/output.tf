@@ -1,4 +1,4 @@
 output "instance_id" {
-    value = aws-instance
+    value = aws-instance.e
   
 }
