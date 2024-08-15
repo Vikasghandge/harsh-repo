@@ -5,6 +5,6 @@ variable "aws_region" {
 }
 
 variable "instance_ami" {
-    description = ""
+    description = "ami for instance"
   
 }
