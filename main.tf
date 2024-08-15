@@ -1,4 +1,8 @@
 provider "aws" {
-    region = "ap-south"
+    region = "ap-south-1"
+  
+}
+
+resource "" "name" {
   
 }
