@@ -10,6 +10,7 @@ variable "instance_ami" {
   
 }
 
-variable "" {
+variable "instance_type" {
+    description = "instance"
   
 }
