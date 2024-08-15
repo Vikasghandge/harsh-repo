@@ -5,7 +5,7 @@ provider "aws" {
 
 resource "aws_instance" "this" {
     ami = ""
-    instance_type = "" 
-    tags = 
+    instance_type = "t2.micro" 
+    tags = nam
   
 }
