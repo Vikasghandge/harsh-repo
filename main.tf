@@ -3,6 +3,9 @@ provider "aws" {
   
 }
 
-resource "aws_instance" "name" {
+resource "aws_instance" "this" {
+    ami = ""
+    instance_type = 
+    tags = 
   
 }
