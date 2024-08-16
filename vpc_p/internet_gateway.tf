@@ -11,4 +11,3 @@ resource "aws_nat_gateway" "nat" {
 }
 
 
-}
