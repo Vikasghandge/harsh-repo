@@ -1,3 +1,4 @@
-resource "aws_in" "name" {
+resource "aws_internet_gateway" "igw" {
+    
   
 }
