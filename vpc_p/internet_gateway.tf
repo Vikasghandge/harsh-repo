@@ -6,7 +6,8 @@ resource "aws_internet_gateway" "igw" {
 }
 
 resource "aws_nat_gateway" "nat" {
-    vpc = aws_vpc_mai
+    vpc = aws_vpc.main.id
+    
 }
 
 
