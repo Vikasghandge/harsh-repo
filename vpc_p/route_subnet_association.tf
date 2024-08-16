@@ -5,7 +5,7 @@
 # }
 
 
-resource "aws_route_table_association" "a" {
+resource "aws_route_table_association" "b" {
     route_table_id = aws_route_table.main.id
     subnet_id      = aws_subnet.main.id
 }
