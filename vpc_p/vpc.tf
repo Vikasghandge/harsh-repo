@@ -1,3 +1,3 @@
-resource "aws-vpc" "" {
+resource "aws-vpc" "main" {
   
 }
