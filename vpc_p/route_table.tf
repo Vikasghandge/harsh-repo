@@ -3,6 +3,6 @@ resource "aws_route_table" "rt" {
 
 
      route {
-        
+        cidr_block = 
      }  
 }
