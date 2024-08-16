@@ -9,6 +9,6 @@ resource "aws_route_table" "rt" {
      }  
 
      tags = {
-       name = 
+       name = "route table"
      }
 }
