@@ -1,3 +1,3 @@
-resource "aws_route_su" "name" {
+resource "aws_route_table_association" "name" {
   
 }
