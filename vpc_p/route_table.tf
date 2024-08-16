@@ -1,3 +1,3 @@
 resource "aws_route_table" "rt" {
-  vpc_id = 
+  vpc_id = aws_vpc.main.id
 }
