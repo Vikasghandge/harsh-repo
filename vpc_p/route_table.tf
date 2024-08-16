@@ -6,7 +6,7 @@ route =  {
     gateway_id = aws_internet_gateway.igw.id
     }
     tags = {
-        name =
+        name = "route_table"
     }
 
 
