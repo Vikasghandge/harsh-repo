@@ -4,7 +4,7 @@ resource "aws_subnet" "main" {
     map_customer_owned_ip_on_launch = true
 
     tags = {
-      name = "public"
+      name = "public_subnet"
     }
   
 }
