@@ -4,3 +4,7 @@ resource "aws_internet_gateway" "igw" {
         name = "IGW"
     }
 }
+
+resource "aws_nat_gateway" "name" {
+  
+}
