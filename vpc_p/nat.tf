@@ -3,6 +3,7 @@
 #     tags = "nat"
 # }
 
+
 removed {
-  
+  aws
 }
