@@ -25,4 +25,4 @@ resource "aws_route_table" "rt" {
   }
 }
 
-# add
+# attaching natgate
