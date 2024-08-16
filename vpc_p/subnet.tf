@@ -1,3 +1,3 @@
 resource "aws_subnet" "main" {
-vpc_id =   
+vpc_id = aws_vpc.main  
 }
