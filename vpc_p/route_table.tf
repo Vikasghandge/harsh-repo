@@ -24,3 +24,5 @@ resource "aws_route_table" "rt" {
     Name = "route_table"
   }
 }
+
+# add
