@@ -25,4 +25,8 @@ resource "aws_route_table" "rt" {
   }
 }
 
-# attaching natgate
+# attaching nat gateway
+
+resource "aws_ro" "name" {
+  
+}
