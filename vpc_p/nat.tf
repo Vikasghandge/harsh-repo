@@ -5,6 +5,6 @@
 
 
 resource "aws_nat_gateway" "nat" {
-    
+    allocation_id = 
   
 }
