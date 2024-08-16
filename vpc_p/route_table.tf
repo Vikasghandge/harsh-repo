@@ -27,6 +27,6 @@ resource "aws_route_table" "rt" {
 
 # attaching nat gateway
 
-resource "aws_ro" "name" {
+resource "aws_route_table" "rt2" {
   
 }
