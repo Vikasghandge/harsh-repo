@@ -28,5 +28,6 @@ resource "aws_route_table" "rt" {
 # attaching nat gateway
 
 resource "aws_route_table" "rt2" {
+    vpc_id = aws_nat_gateway.nat
   
 }
