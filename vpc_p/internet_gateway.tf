@@ -5,6 +5,9 @@ resource "aws_internet_gateway" "igw" {
     }
 }
 
-resource "aws_nat_gateway" "name" {
-  
+resource "aws_nat_gateway" "nat" {
+    vpc =
+}
+
+
 }
