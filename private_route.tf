@@ -1,4 +1,4 @@
-resource "aws_route_table" "rt" {
+resource "aws_route_table" "rt2" {
   vpc_id = aws_vpc.main.id
 
   route {
