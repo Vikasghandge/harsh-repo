@@ -3,7 +3,7 @@
 
 
 
-resource "aws_nat_gateway" "origin" {
+resource "aws_nat_gateway" "example" {
   vpc_id = aws_vpc.rt2.id
 
   route {
