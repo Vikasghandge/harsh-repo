@@ -3,7 +3,7 @@ resource "aws_route_table" "rt2" {
 
   route {
     cidr_block = "0.0.0.0/0"
-    gateway_id = aws_nat
+    gateway_id = aws_nat_gateway
   }
 
   tags = {
