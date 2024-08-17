@@ -4,7 +4,7 @@ resource "aws_subnet" "origin" {
     map_public_ip_on_launch = true
 
     tags = {
-      name = "public_subnet"
+      name = "private_subnet"
     }
   
 }
