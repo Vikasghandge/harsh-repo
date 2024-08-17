@@ -1,3 +1,3 @@
-resource "aws_pr" "-" {
+resource "aws_subnet" "" {
   
 }
