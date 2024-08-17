@@ -1,7 +1,7 @@
 resource "aws_nat_gateway" "origin" {
     vpc_id = aws_vpc.main.id 
     cidr_block = "10.0.2.0/24"
-    map_public_ip_on_launch = true
+    map_public_ip_on_launch = false
 
     tags = {
       name = "private_subnet"
