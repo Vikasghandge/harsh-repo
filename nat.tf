@@ -4,7 +4,7 @@
 
 
 resource "aws_nat_gateway" "example" {
-  vpc_id = aws_vpc.rt2.id
+  vpc_id = aws_vpc.example.id
 
   route {
     cidr_block = "0.0.0.0/0"
