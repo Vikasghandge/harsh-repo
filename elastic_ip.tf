@@ -1,4 +1,5 @@
-resource "aws_eip" "n" {
+resource "aws_eip" "elastic" {
+    domain = "vpc"
   
 }
 }
