@@ -1,3 +1,8 @@
+
+
+
+
+
 resource "aws_nat_gateway" "origin" {
   vpc_id = aws_vpc.rt2.id
 
