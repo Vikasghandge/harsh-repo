@@ -3,7 +3,7 @@ resource "aws_nat_gateway" "origin" {
 
   route {
     cidr_block = "0.0.0.0/0"
-    gateway_id = aws_nat_gateway
+    gateway_id = aws_nat_gateway.
   }
 
   tags = {
