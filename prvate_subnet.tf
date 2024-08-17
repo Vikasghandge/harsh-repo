@@ -1,4 +1,4 @@
 resource "aws_subnet" "origin" {
-    vpc_id = vp
+    vpc_id = vpc_id
   
 }
