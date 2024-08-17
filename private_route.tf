@@ -1,4 +1,4 @@
-resource "aws_route_table" "rt2" {
+resource "aws_nat_gateway" "rt2" {
   vpc_id = aws_vpc.rt2.id
 
   route {
