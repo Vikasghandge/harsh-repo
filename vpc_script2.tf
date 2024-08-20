@@ -11,6 +11,6 @@ resource "aws_vpc" "vpc" {
   
 }
 
-resource "" "name" {
+resource "aws_subnet" "" {
   
 }
