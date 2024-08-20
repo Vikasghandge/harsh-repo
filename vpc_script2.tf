@@ -26,7 +26,11 @@ resource "aws_subnet" "private" {
     cidr_block = "192.168.1.0/24"
     availability_zone = "ap-south-1b"
     tags = {
-      name = "private"
+      name = "private-subnet"
     }
+  
+}
+
+resource "aws_internet_gateway" "" {
   
 }
