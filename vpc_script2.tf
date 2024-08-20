@@ -56,5 +56,8 @@ tags = {
    
  }
 
+resource "eip" "name" {
+  
+}
   
 
