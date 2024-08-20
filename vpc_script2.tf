@@ -77,7 +77,7 @@ resource "aws_eip" "elastic" {
         nat_gateway_id = aws_nat_gateway.example.id             
     }
     tags = {
-      name = 
+      name = "private_rt"
     }
    
  }
