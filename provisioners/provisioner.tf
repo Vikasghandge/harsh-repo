@@ -19,7 +19,7 @@ resource "aws_instance" "ec2_instance" {
     connection {
         type = "ssh"
         user = "ubuntu"
-        private_key = file("${path.provisioners}/devops-key")
+        private_key = file("${path.modules}/devops-key")
         host = "${self.public_ip}"
     }
 
