@@ -49,6 +49,6 @@ tags = {
   name = "public-rt"
 }
  }  
-resource "aws_rou" "name" {
+resource "aws_route" "name" {
   
 }
