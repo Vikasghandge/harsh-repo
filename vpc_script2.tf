@@ -33,5 +33,8 @@ resource "aws_subnet" "private" {
 
 resource "aws_internet_gateway" "internet" {
     vpc_id = aws_subnet.public.id
+    tags = {
+      name =
+    }
   
 }
