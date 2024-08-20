@@ -42,5 +42,7 @@ resource "aws_internet_gateway" "internet" {
 resource "aws_route_table" "public_rt" {
     vpc_id = aws_subnet.public.id 
  
- route =   
+ route = {
+    cidr_block
+ }  
 }
