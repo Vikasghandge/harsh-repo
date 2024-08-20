@@ -76,6 +76,7 @@ resource "aws_eip" "elastic" {
         cidr_block = "0.0.0.0./0"
         nat_gateway_id = aws_nat_gateway.example.id             
     }
+    tags = 
    
  }
 resource "" "name" {
