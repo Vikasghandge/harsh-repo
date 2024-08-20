@@ -3,6 +3,6 @@ provider "aws" {
     
 }
 
-resource "aws_vp" "name" {
+resource "aws_vpc" "" {
   
 }
