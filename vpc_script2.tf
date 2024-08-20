@@ -82,6 +82,7 @@ resource "aws_eip" "elastic" {
    
  }
 resource "aws_route_table_association" "attach2" {
-    subnet_id = aws
+    subnet_id = aws_subnet.private.id
+    
   
 }
