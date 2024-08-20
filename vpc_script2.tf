@@ -3,7 +3,7 @@ provider "aws" {
     
 }
 
-resource "aws_vpc" "vpc" {
+resource "aws_vpc" "vnet" {
     cidr_block = "192.168.0.0/16"
     tags = {
       name = "vpc-tf"
@@ -12,7 +12,7 @@ resource "aws_vpc" "vpc" {
 }
 
 resource "aws_subnet" "public" {
-    vpc_id = aws_vpc.vpc.id
+    vpc_id = aws_vpc.vnet.id
     cidr_block = "192.168.0.0/24"
     availability_zone = "ap-south-1a"
     tags = {
