@@ -49,4 +49,6 @@ tags = {
   name = "public-rt"
 }
  }  
-
+resource "aws_rou" "name" {
+  
+}
