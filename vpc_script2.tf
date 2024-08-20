@@ -43,6 +43,6 @@ resource "aws_route_table" "public_rt" {
     vpc_id = aws_subnet.public.id 
  
  route = {
-    cidr_block = 0.0.0.0/
+    cidr_block = "0.0.0.0/0
  }  
 }
