@@ -8,7 +8,7 @@ provider "aws" {
 resource "aws_instance" "ec2_instance" {
      ami = "ami-0ad21ae1d0696ad58"
      instance_type = "t2.micro"
-     key_name = "devops-key"
+     key_name = "devops"
      tags = {
         name = "stagint-jordan"
         project = "jordan company"
@@ -19,7 +19,7 @@ resource "aws_instance" "ec2_instance" {
     connection {
         type = "ssh"
         user = "ubuntu"
-        private_key = file("${path.pro}/devops-key")
+        private_key = file("${path.module}/devops-key")
         host = "${self.public_ip}"
     }
 
