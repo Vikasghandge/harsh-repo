@@ -11,6 +11,6 @@ resource "aws_vpc" "vpc" {
   
 }
 
-removed {
+resource "" "name" {
   
 }
