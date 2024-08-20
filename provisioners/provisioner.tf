@@ -5,10 +5,10 @@ provider "aws" {
 
 
 # resource block for server creation
-resource "aws_instance" "ec2_instance" {
+resource "aws_instance" "server_1" {
      ami = "ami-0ad21ae1d0696ad58"
      instance_type = "t2.micro"
-     key_name = "devops"
+     key_name = "hybrid"
      tags = {
         name = "stagint-jordan"
         project = "jordan company"
@@ -19,7 +19,7 @@ resource "aws_instance" "ec2_instance" {
     connection {
         type = "ssh"
         user = "ubuntu"
-        private_key = file("${path.module}/devops-key")
+        private_key = file("${path.module}/devops-")
         host = "${self.public_ip}"
     }
 
