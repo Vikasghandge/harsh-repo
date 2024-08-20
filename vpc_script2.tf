@@ -62,7 +62,7 @@ resource "aws_eip" "elastic" {
 }
   resource "aws_nat_gateway" "example" {
     allocation_id = aws_eip.elastic.id
-    subnet_id = aw
+    subnet_id = aws_vpc.vnet
     
   }
 
