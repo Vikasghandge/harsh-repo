@@ -64,7 +64,7 @@ resource "aws_eip" "elastic" {
     allocation_id = aws_eip.elastic.id
     subnet_id = aws_subnet.public.id
     tags = {
-      name = 
+      name = "nat-gw"
     }
     
   }
