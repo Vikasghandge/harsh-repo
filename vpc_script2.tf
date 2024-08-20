@@ -60,5 +60,7 @@ resource "aws_eip" "elastic" {
     domain = "vpc"
   
 }
-  re
+  resource "aws_nat_gateway" "name" {
+    
+  }
 
