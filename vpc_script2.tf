@@ -78,4 +78,4 @@ resource "aws_eip" "elastic" {
     }
    
  }
-nat_gateway_id = 
+nat_gateway_id = aws
