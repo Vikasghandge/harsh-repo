@@ -56,7 +56,7 @@ tags = {
    
  }
 
-resource "eip" "name" {
+resource "aws_eip" "name" {
   
 }
   
