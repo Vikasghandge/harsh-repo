@@ -62,5 +62,6 @@ resource "aws_eip" "elastic" {
 }
   resource "aws_nat_gateway" "example" {
     
+    
   }
 
