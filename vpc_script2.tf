@@ -50,7 +50,7 @@ tags = {
 }
  }  
 
- resource "route" "name" {
+ resource "aws_route_table_" "name" {
    
  }
 
