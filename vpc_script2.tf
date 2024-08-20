@@ -81,6 +81,7 @@ resource "aws_eip" "elastic" {
     }
    
  }
-resource "aws_route_table_association" "at" {
+resource "aws_route_table_association" "attach2" {
+    
   
 }
