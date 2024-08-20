@@ -86,6 +86,7 @@ resource "aws_route_table_association" "attach2" {
     route_table_id = aws_route_table.private-rt.id 
   
 }
-output "vp" {
+output "vpc_id" {
+    value = 
   
 }
