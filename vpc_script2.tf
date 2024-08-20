@@ -6,7 +6,8 @@ provider "aws" {
 resource "aws_vpc" "vpc" {
     cidr_block = "192.168.0.0/16"
     tags = {
-      name = ""
+      name = "vpc-tf"
     }
+  
   
 }
