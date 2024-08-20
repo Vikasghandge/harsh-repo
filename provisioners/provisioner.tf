@@ -19,7 +19,7 @@ resource "aws_instance" "server_1" {
     connection {
         type = "ssh"
         user = "ubuntu"
-        private_key = file("${path.module}/devops-")
+        private_key = file("${path.module}/hybrid")
         host = "${self.public_ip}"
     }
 
