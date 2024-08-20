@@ -5,7 +5,7 @@ provider "aws" {
 
 
 # resource block for server creation
-resource "aws_instance" "server_1" {
+resource "aws_instance" "ec2_instance" {
      ami = "ami-0ad21ae1d0696ad58"
      instance_type = "t2.micro"
      key_name = "hybrid"
