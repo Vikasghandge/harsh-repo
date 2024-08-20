@@ -70,6 +70,6 @@ resource "aws_eip" "elastic" {
     
   }
  
- resource "aws_route_table" "private" {
+ resource "aws_route_table" "private-rt" {
    
  }
