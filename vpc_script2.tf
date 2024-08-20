@@ -67,5 +67,6 @@ resource "aws_eip" "elastic" {
       name = "nat-gw"
     }
     
+    
   }
 
