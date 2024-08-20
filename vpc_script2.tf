@@ -70,6 +70,6 @@ resource "aws_eip" "elastic" {
     
   }
  
- removed {
+ resource "" "name" {
    
  }
