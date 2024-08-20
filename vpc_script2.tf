@@ -66,7 +66,10 @@ resource "aws_eip" "elastic" {
     tags = {
       name = "nat-gw"
     }
-    
+
     
   }
-
+ 
+ removed {
+   
+ }
