@@ -9,5 +9,8 @@ resource "aws_vpc" "vpc" {
       name = "vpc-tf"
     }
   
+}
+
+removed {
   
 }
