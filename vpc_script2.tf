@@ -21,6 +21,6 @@ resource "aws_subnet" "public" {
   
 }
 
-resource "aw" "name" {
+resource "aws_subnet" "name" {
   
 }
