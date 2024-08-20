@@ -78,4 +78,4 @@ resource "aws_eip" "elastic" {
     }
    
  }
-nat_gateway
+nat_gateway_id = 
