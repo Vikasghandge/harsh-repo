@@ -41,7 +41,8 @@ resource "aws_internet_gateway" "internet" {
 
 resource "aws_route_table" "public_rt" {
     vpc_id = aws_vpc.vpc.id
-route = ""
+route = "
+"
  
  }  
 
