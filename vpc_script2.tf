@@ -21,6 +21,7 @@ resource "aws_subnet" "public" {
   
 }
 
-resource "aws_subnet" "name" {
+resource "aws_subnet" "private" {
+    vpc_id = aws_vpc.vpc.id
   
 }
