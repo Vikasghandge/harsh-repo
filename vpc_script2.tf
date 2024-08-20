@@ -52,7 +52,7 @@ tags = {
 
  resource "aws_route_table_association" "attach" {
     subnet_id = aws_subnet.public.id
-    
+    route_table_id = 
    
  }
 
