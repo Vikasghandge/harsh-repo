@@ -49,7 +49,6 @@ tags = {
   name = "public-rt"
 }
  }  
-resource "aws_route_table_association" "attach {
-subnet_id = aws_sub
+
   
 }
