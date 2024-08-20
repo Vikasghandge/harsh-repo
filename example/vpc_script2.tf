@@ -72,7 +72,7 @@ resource "aws_eip" "elastic" {
  
  resource "aws_route_table" "private-rt" {
     vpc_id = aws_vpc.vnet.id
-    route = {
+    route {
         cidr_block = "0.0.0.0./0"
         nat_gateway_id = aws_nat_gateway.example.id           
     }
