@@ -16,7 +16,7 @@ resource "aws_subnet" "public" {
     cidr_block = "192.168.0.0/24"
     availability_zone = "ap-south-1a"
     tags = {
-      name = 
+      name = "public-subnet"
     }
   
 }
