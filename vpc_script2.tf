@@ -46,7 +46,7 @@ route = {
     gateway_id = aws_internet_gateway_internet.id
 } 
 tags = {
-  name = 
+  name = "public-rt"
 }
  }  
 
