@@ -39,4 +39,6 @@ resource "aws_internet_gateway" "internet" {
   
 }
 
-a
+resource "aws_re" "name" {
+  
+}
