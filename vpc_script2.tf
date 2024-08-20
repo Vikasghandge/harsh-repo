@@ -15,6 +15,8 @@ resource "aws_subnet" "public" {
     vpc_id = aws_vpc.vpc.id
     cidr_block = "192.168.0.0/24"
     availability_zone = "ap-south-1a"
-    tags = 
+    tags = {
+      name = 
+    }
   
 }
