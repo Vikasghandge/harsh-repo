@@ -32,7 +32,7 @@ resource "aws_subnet" "private" {
 }
 
 resource "aws_internet_gateway" "internet" {
-    vpc_id = aws_subnet.public.id
+    vpc_id = aws_vpc.vnet.id
     tags = {
       name = "igw_vpc"
     }
