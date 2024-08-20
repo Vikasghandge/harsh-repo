@@ -12,6 +12,6 @@ resource "aws_vpc" "vpc" {
 }
 
 resource "aws_subnet" "public" {
-    
+    vpc_id = 
   
 }
