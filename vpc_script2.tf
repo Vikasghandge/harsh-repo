@@ -56,7 +56,8 @@ tags = {
    
  }
 
-resource "aws_eip" "name" {
+resource "aws_eip" "elastic" {
+    
   
 }
   
