@@ -78,3 +78,6 @@ resource "aws_eip" "elastic" {
     }
    
  }
+resource "" "name" {
+  
+}
