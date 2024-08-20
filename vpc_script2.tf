@@ -87,6 +87,6 @@ resource "aws_route_table_association" "attach2" {
   
 }
 output "vpc_id" {
-    value = 
+    value = aws_vpc.vnet
   
 }
