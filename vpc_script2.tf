@@ -31,6 +31,6 @@ resource "aws_subnet" "private" {
   
 }
 
-resource "aws_internet_gateway" "" {
+resource "aws_internet_gateway" "internet" {
   
 }
