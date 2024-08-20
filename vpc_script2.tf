@@ -49,6 +49,6 @@ tags = {
   name = "public-rt"
 }
  }  
-resource "aws_route" "name" {
+resource "aws_route_table_association" "name" {
   
 }
