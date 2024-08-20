@@ -82,6 +82,6 @@ resource "aws_eip" "elastic" {
    
  }
 resource "aws_route_table_association" "attach2" {
-    subnet_id = 
+    subnet_id = aws
   
 }
