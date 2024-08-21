@@ -1,1 +1,1 @@
-provi
+provider "aws"
