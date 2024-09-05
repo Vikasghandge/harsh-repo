@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microservices Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .service {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        iframe {
+            width: 80%;
+            height: 400px;
+            border: 0;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Microservices Dashboard</h1>
+    
+    <div class="service">
+        <h2>Todo App</h2>
+        <!-- Change the URL to your server's IP or use localhost if running locally -->
+        <iframe src="http://localhost:5001" title="Todo App"></iframe>
+    </div>
+
+    <div class="service">
+        <h2>Weather App</h2>
+        <!-- Change the URL to your server's IP or use localhost if running locally -->
+        <iframe src="http://localhost:5002" title="Weather App"></iframe>
+    </div>
+</body>
+</html>
+

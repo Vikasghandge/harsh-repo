@@ -1,0 +1,29 @@
+version: '3'
+services:
+  todo-app:
+    build: ./todo-app
+    ports:
+      - "5001:5000"
+    networks:
+      - microservices-network
+
+  weather-app:
+    build: ./weather-app
+    ports:
+      - "5002:5000"
+    networks:
+      - microservices-network
+
+  frontend:
+    image: nginx:latest
+    volumes:
+      - ./frontend:/usr/share/nginx/html
+    ports:
+      - "80:80"
+    networks:
+      - microservices-network
+
+networks:
+  microservices-network:
+    driver: bridge
+
