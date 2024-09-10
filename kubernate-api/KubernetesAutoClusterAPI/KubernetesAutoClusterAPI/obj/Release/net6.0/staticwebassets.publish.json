@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Tg8FYUKBUqr12yOp3YPnqYqsYNRBP15X+gPY4GlGAss=",
+  "Source": "KubernetesAutoClusterAPI",
+  "BasePath": "_content/KubernetesAutoClusterAPI",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
